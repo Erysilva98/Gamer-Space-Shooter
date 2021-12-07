@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+#main-play-area {
+    background-image: url(/img/space1.jpg);
+    height: 600px;
+    width: 1400px;
+}
+
+.game-instructions {
+    position: relative;
+    color: rgb(10, 163, 190);
+    top: 140px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.start-button {
+    position: relative;
+    color: rgb(26, 159, 177);
+    top: 9rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.player-shooter {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 50px;
+    top: 250px
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
